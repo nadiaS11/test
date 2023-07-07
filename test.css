@@ -3,6 +3,7 @@
     padding: 0px;
 }
 
+
 .menu-container{
     background-color: rgb(58, 56, 56);    
     color: rgb(231, 225, 225);
@@ -41,7 +42,10 @@ width: 300px;
     align-items: center;    
     background-image: url("/background.png"),
     linear-gradient(45deg, rgb(24, 5, 5), rgb(12, 7, 7));
+    background-repeat: no-repeat;
     color: white;
+    background-position: center;
+    background-size: cover;
 }
 .title{
     font-size: 55px;
@@ -58,3 +62,13 @@ width: 300px;
     border: none;
     border-radius: 5px;
 }
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin:15px;
+    padding: 10px;
+}
+
